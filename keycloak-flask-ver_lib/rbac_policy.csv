@@ -1,0 +1,12 @@
+p, *, /, GET
+p, admin, /admin, GET
+p, manager, /manager, GET
+
+g, admin, manager
+
+g2, /admin2, /admin
+g2, /admin1, /admin
+g2, /casbin_reload, /admin
+g2, /manager1, /manager
+g2, /manager2, /manager
+
