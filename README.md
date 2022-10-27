@@ -13,6 +13,9 @@ keycloak-flask-lib is version that include decorators about login and authorizai
 
 keycloak-flask-blueprint is version that include decorators and add blueprint for authorization and authentication
 
+this repo assume that you test this repo in local environment.
+use this codes before you go further(ex)use actual DB, make stand alone server for keycloak etc).
+
 ## how to use
 
 - install keyclaok(https://www.keycloak.org/)
