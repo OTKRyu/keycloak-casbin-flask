@@ -20,7 +20,7 @@ def change_casbin():
         response = make_response('''
         <html>
             <body>
-                <form action = "http://localhost:5000/change_casbin" method = "POST" 
+                <form action = "http://localhost:{your app prot}/change_casbin" method = "POST" 
                     enctype = "multipart/form-data">
                     <input type = "file" name = "file" />
                     <input type = "submit"/>

@@ -58,7 +58,7 @@ def home():
         <br>
         <a href="/casbin_reload">reload casbin settings</a>
         <br>
-        <a href="//localhost:8080/realms/myrealm/account?referrer=flask-test1&referrer_uri=http://localhost:5000/&">Account
+        <a href="//localhost:{keycloak port}/realms/myrealm/account?referrer=flask-test1&referrer_uri=http://localhost:{your app port}/&">Account
         <br>
         <a href="/logout">Log out</a>'''        
         response = make_response(html)

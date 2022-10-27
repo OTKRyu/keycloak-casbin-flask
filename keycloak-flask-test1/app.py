@@ -20,11 +20,9 @@ app.config.update({
     'OIDC_OPENID_REALM': 'flask-test1',
     'OIDC_SCOPES': ['openid', 'email', 'profile'],
     'OIDC_INTROSPECTION_AUTH_METHOD': 'client_secret_post',
-    'PUBLIC_KEY': """-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwtGTTVSjgLw0jsWEmXY1JqRxb8NnuVaBXLX+PFkOdyUBBX46p8DS3QuVxyhzPsy5APpfXnCX04+MqGq5H+ieBqyJ+3v1F1L4iq5h5mD8lUv9MFoP47jah1CPjxLJnmEyb2E31DX5OGLVlUO71ycY/5Dpw23GeR5EgNBf0Q5e0fK9iNaGIHarO2dlLWXaKLQCeLAB5xYaYXuVE4guLNO8a5XccXkgirebQDRGfEcPmSvyEbyww/bZHRBJc5378FhJHtjt5IoWYN2rpBveE/LYBvV0/K+pwBtcZCDvmocfTjrhwEugGTojqvmo+0FqgmXl5dNoMie8Puofw/s81mzypwIDAQAB
------END PUBLIC KEY-----""",
-    'CASBIN_POLICY': 'C:/Users/user/Desktop/test/keycloak-flask-test1/rbac_policy.csv',
-    'CASBIN_MODEL': 'C:/Users/user/Desktop/test/keycloak-flask-test1/casbinmodel.conf',
+    'PUBLIC_KEY': "keycloak pulbic key",
+    'CASBIN_POLICY': '/path/to/your/project/rbac_policy.csv',
+    'CASBIN_MODEL': '/path/to/your/project/casbinmodel.conf',
     'AUDIENCE': 'account',
 })
 
